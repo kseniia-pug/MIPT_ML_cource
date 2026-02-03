@@ -13,12 +13,10 @@ Implementation of kNN classifier from scratch as part of Stanford CS231n-inspire
 
 ### **Analysis Performed:**
 - Validation against scikit-learn's kNN implementation
-- Accuracy testing on digit classification dataset (95%+ accuracy)
 - Performance comparison between three implementations
 - Exploration of distance metric properties (L1 vs L2 invariance)
 
 ## Key Results
-- **Accuracy**: Achieved 95% on test set with k=1
 - **Speedup**: Vectorized implementation significantly faster than naive loops
 - **Verification**: Results match scikit-learn implementation for majority of cases
 
@@ -27,5 +25,3 @@ Implementation of kNN classifier from scratch as part of Stanford CS231n-inspire
 - **Algorithm optimization** from O(n²) to more efficient implementations
 - **Distance metrics** understanding (Euclidean/L2 distance computation)
 - **kNN algorithm** fundamentals (lazy learning, nearest neighbor search)
-
-## Project Structure
